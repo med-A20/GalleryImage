@@ -46,11 +46,9 @@ function App() {
         </button>
       </div>
       {
-        data.length !== 0 ?
         load ?
         <Container data={data} />
         : <p className="text-2xl"> Loading... </p>
-        : <p className="text-2xl"> Not Found :) </p>
       }
     </div>
   );
